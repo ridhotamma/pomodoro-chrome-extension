@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="timer">
+      <div id="time">00:00</div>
+      <div class="input-list">
+        <input id="minutesInput" type="number" min="0" placeholder="Minutes" />
+        <input
+          id="secondsInput"
+          type="number"
+          min="0"
+          max="59"
+          placeholder="Seconds"
+        />
+      </div>
+      <div class="button-list">
+        <button id="startButton">Start</button>
+        <button id="resetButton">Reset</button>
+        <button id="restartButton">Restart</button>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
